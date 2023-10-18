@@ -454,7 +454,7 @@ h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    height: fit-content;
     text-align: center;
   }
 
@@ -852,7 +852,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #47b2e4;
+  color: #b87333;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -864,7 +864,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #37517e;
+  color: #7b3f00;
   transition: ease-in-out 0.3s;
 }
 
@@ -879,7 +879,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #47b2e4;
+  color: #b87333;
 }
 
 /*--------------------------------------------------------------
@@ -1651,7 +1651,7 @@ section {
   background: #f3f5fa;
   text-align: center;
   font-size: 15px;
-  color: #444444;
+  color: green;
 }
 
 #footer .footer-newsletter h4 {
@@ -1828,4 +1828,20 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+/* Increase letter spacing in the <li> elements */
+.custom-list li {
+  letter-spacing: 4px; /* Adjust the value as needed */
+  list-style-type: circle;
+}
+
+.custom-list .red-text {
+  color: red; /* Red color for the specified words within the <span> elements */
+  font-weight: bold;
+}
+
+.custom-list .black-text {
+  color: black; /* Red color for the specified words within the <span> elements */
+  font-weight: bold;
 }
